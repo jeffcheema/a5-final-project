@@ -85,6 +85,7 @@ const Artist = () => {
       <VStack align="stretch" width="100%" spacing={5}>
         <Flex
           direction="column"
+          borderRadius="lg"
           // set the background image to the artist's image artistData?.images[0]?.url
           background={`rgba(0, 0, 0, .65) url(${artistData?.images[0]?.url})`}
           minHeight={300}

@@ -73,6 +73,7 @@ const Track = () => {
     <Skeleton isLoaded={!loading}>
       <VStack align="stretch" width="100%" spacing={5}>
         <Flex
+          borderRadius="lg"
           direction="column"
           // set the background image to the artist's image artistData?.images[0]?.url
           background={`rgba(0, 0, 0, .65) url(${trackData?.album?.images[0]?.url})`}
