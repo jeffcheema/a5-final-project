@@ -93,7 +93,7 @@ const Artist = () => {
           backgroundBlendMode="darken"
           color="white"
           //center the background image
-          //   backgroundPosition="center"
+          backgroundPosition="center"
         >
           <Spacer />
           <Flex direction="column" width="100%" p={3}>
@@ -139,32 +139,7 @@ const Artist = () => {
         </Flex>
         <TableContainer>
           <Table variant="simple" size="sm">
-            {/* <Thead>
-              <Tr>
-                <Th>To convert</Th>
-                <Th>into</Th>
-                <Th isNumeric>multiply by</Th>
-              </Tr>
-            </Thead> */}
             <Tbody>
-              {/* <Tr>
-                <Td>inches</Td>
-                <Td>millimetres (mm)</Td>
-                <Td isNumeric>25.4</Td>
-              </Tr>
-              <Tr>
-                <Td>feet</Td>
-                <Td>centimetres (cm)</Td>
-                <Td isNumeric>30.48</Td>
-              </Tr>
-              <Tr>
-                <Td>yards</Td>
-                <Td>metres (m)</Td>
-                <Td isNumeric>0.91444</Td>
-              </Tr> */}
-              {/* show 
-                           the index + 1, album cover, track name, 
-                          */}
               {artistTopTracks?.tracks.map(
                 (
                   {
