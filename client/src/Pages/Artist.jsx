@@ -118,7 +118,7 @@ const Artist = () => {
                 </Text>
               </Flex>
             </Flex>
-            <Flex direction="row" gap={2}>
+            <Flex direction="row" gap={2} mt={2}>
               {artistData?.genres.map((genre, index) => (
                 <Tag
                   size="sm"
