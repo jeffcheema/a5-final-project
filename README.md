@@ -10,7 +10,7 @@ Daniel Lee / daniebl1@uci.edu / 10506838
 
 15/15
 - 1/1 Communicating with the webserver
-    - Updated client id/secret in webserver directory, as well as created app.js in webserver dir to handle communication with client and spotify
+    - Updated client id/secret in webserver directory, as well as created webserver\app.js, webserver\routes\index.js, and webserver\bin\www in webserver dir to handle communication with spotify, and client\src\backend.jsx to handle from client
 - 5/5 Spotify Browser Home Page
     - Made the page under the client\src\Pages dir, showed user info at the top with options on the bottom
 - 3/3 Spotify Browser Artist Page
